@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <title>徐扬 - 软件工程师求职简历</title>
+    <style>
+        /* 页面整体样式 */
+        body {
+            background-color: #ffe6f2;
+            font-family: "Microsoft YaHei", 微软雅黑, sans-serif;
+            margin: 0;
+            padding: 30px 0;
+            line-height: 1.6;
+        }
+
+        /* 简历容器 - 增加内边距和圆角 */
+        .resume-container {
+            width: 75%;
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 6px 18px rgba(214, 51, 132, 0.18);
+            overflow: hidden;
+            padding: 20px;
+        }
+
+        /* 标题样式优化 */
+        h2 {
+            text-align: center;
+            color: #d63384;
+            font-size: 32px;
+            margin: 10px 0 30px;
+            text-shadow: 1px 1px 3px #ffb3d9;
+            border-bottom: 2px solid #ffcce5;
+            padding-bottom: 10px;
+        }
+
+        /* 证件照区域样式 */
+        .photo-area {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .photo-area img {
+            width: 120px;
+            height: 160px;
+            border-radius: 8px;
+            border: 3px solid #ffcce5;
+            object-fit: cover;
+            box-shadow: 0 2px 8px rgba(214, 51, 132, 0.15);
+        }
+
+        /* 表格样式 */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        /* 单元格通用样式 */
+        td,
+        th {
+            border: none;
+            padding: 18px 15px;
+            text-align: left;
+            font-size: 16px;
+            border-bottom: 1px solid #ffcce5;
+        }
+
+        /* 表头样式强化 */
+        th {
+            background-color: #ffcce5;
+            color: #d63384;
+            font-weight: bold;
+            width: 18%;
+            border-right: 1px solid #fff;
+        }
+
+        /* 内容单元格样式 */
+        td {
+            color: #333;
+            padding-left: 20px;
+        }
+
+        /* 跨列单元格样式优化 */
+        td[colspan="3"] {
+            background-color: #fff5fa;
+        }
+
+        /* 最后一行去掉边框 */
+        tr:last-child td,
+        tr:last-child th {
+            border-bottom: none;
+        }
+
+        /* 鼠标悬浮行效果增强 */
+        tr:hover {
+            background-color: #fff0f7;
+            transition: background-color 0.3s ease;
+        }
+
+        /* 特殊模块标注（如项目经历） */
+        .highlight {
+            color: #d63384;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+<div class="resume-container">
+    <h2>个人求职简历</h2>
+    <!-- 证件照区域 -->
+    <div class="photo-area">
+        < img src="1.jpg" alt="徐扬证件照" />
+    </div>
+    <table>
+        <!-- 基础信息 -->
+        <tr>
+            <th>姓名</th>
+            <td>徐扬</td>
+            <th>性别</th>
+            <td>女</td>
+        </tr>
+        <tr>
+            <th>政治面貌</th>
+            <td>共青团员</td>
+            <th>联系电话</th>
+            <td>17888247360</td>
+        </tr>
+        <tr>
+            <th>电子邮箱</th>
+            <td>2221054390@qq.com</td>
+            <th>兴趣爱好</th>
+            <td>跳舞、听歌</td>
+        </tr>
+
+        <!-- 求职核心信息 -->
+        <tr>
+            <th>求职意愿</th>
+            <td colspan="3">软件工程师（Java/前端方向）</td>
+        </tr>
+        <tr>
+            <th>教育经历</th>
+            <td colspan="3">
+                浙大宁波理工学院 | 计算机科学与技术 | 本科 | 2024.09-至今
+            </td>
+        </tr>
+
+        <!-- 专业技能 -->
+        <tr>
+            <th>专业技能</th>
+            <td colspan="3">
+                1. 编程语言：Java（基础）、Python（基础）、JavaScript<br />
+                2. 前端技术：HTML5、CSS3、Vue.js（入门）<br />
+                3. 工具能力：Git、VS Code、MySQL（基础）
+            </td>
+        </tr>
+
+        <!-- 项目经历 -->
+        <tr>
+            <th>项目经历</th>
+            <td colspan="3">
+                <span class="highlight">个人简历网页制作 | 2026.03</span><br />
+                独立完成基于HTML+CSS的个人简历页面开发，实现响应式布局和美观的视觉设计，掌握表格布局、CSS样式优化等核心技能。
+            </td>
+        </tr>
+
+        <!-- 荣誉与评价 -->
+        <tr>
+            <th>个人荣誉</th>
+            <td colspan="3">校级三好学生（2023-2024学年）</td>
+        </tr>
+        <tr>
+            <th>自我评价</th>
+            <td colspan="3">
+                具备扎实的计算机专业基础，熟悉前端开发基础技术，学习能力强，做事认真负责；<br />
+                有良好的沟通能力和团队协作意识，对软件工程师岗位充满热情，愿意持续学习提升技术能力。
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
